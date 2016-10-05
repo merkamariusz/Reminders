@@ -16,6 +16,6 @@
         android:background="@color/dark_grey"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        tools:listitem="@layout/reminders_row"
-        android:id="@+id/reminders_list_view" />
+        android:id="@+id/reminders_list_view"
+        tools:listitem="@layout/reminders_row" />
 </RelativeLayout>
