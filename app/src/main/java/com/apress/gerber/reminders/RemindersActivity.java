@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 public class RemindersActivity extends AppCompatActivity {
 
+    //TODO Tenni valamit
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
