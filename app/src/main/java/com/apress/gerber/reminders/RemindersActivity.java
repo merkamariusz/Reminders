@@ -47,7 +47,7 @@ public class RemindersActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_new:
                 //create new Reminder
-                Log.d(getLocalClassName(), "create new Reminder2");
+                Log.d(getLocalClassName(), "create new Reminder3");
                 return true;
             case R.id.action_exit:
                 finish();
