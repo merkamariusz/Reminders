@@ -7,6 +7,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
 /**
  * Created by Máriusz on 2016.10.07..
  */
@@ -58,7 +59,7 @@ public class RemindersDbAdapter
     }
 
     //CREATE
-//note that the id will be created for you automatically
+    //note that the id will be created for you automatically
     public void createReminder(String name, boolean important)
     {
         ContentValues values = new ContentValues();
